@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".SignUp_Layout">
+
+    <ImageView
+        android:id="@+id/imgwelcom"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/welcomepic"></ImageView>
+
+    <EditText
+        android:id="@+id/signup_edtEmailtxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#E91E63"
+        android:drawableRight="@drawable/email"
+        android:hint="Your Email...."
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="20sp"></EditText>
+
+    <EditText
+        android:id="@+id/signup_edtUsernametxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#E91E63"
+        android:drawableRight="@drawable/username"
+        android:hint="Your Username...."
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="20sp"></EditText>
+
+    <EditText
+        android:id="@+id/signup_edtPasstxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#E91E63"
+        android:drawableRight="@drawable/pass"
+        android:hint="Type Password...."
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="20sp"></EditText>
+
+    <EditText
+        android:id="@+id/signup_edtPassAgaintxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#E91E63"
+        android:drawableRight="@drawable/pass_again"
+        android:hint="Re-Type Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="20sp"></EditText>
+
+    <Button
+        android:id="@+id/signup_Signupbtn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#F44336"
+        android:text="SignUp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"></Button>
+
+    <Button
+        android:id="@+id/signup_Loginbtn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#F44336"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"></Button>
+
+</LinearLayout>
